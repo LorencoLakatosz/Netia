@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="icon" href="./images/favicon.ico">
+
+  <!-- Bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Awsome fonts -->
+
+</head>
+
+<body>
+
+
+  <section id="title">
+
+    <div class="container-fluid home">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#title"><img class="img-netia" src="./images/Netia-logo.jpg" alt="NETIA"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Strona głowna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Usługi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide z-index-1" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <button type="button" onclick="window.location.href='#contact';" class="kupa z-1 position-absolute  btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="kupa-2 z-1 position-absolute btn btn-outline-light btn-css">Zobacz
+                szczegóły</button>
+              <source media="(min-width: 992px)" srcset="images\netia_TSCS-296_mandalorian_1920x500.png">
+              <source media="(min-width: 465px)" srcset="images\netia_TSCS-296_mandalorian_767x262-transformed.png">
+              <img class="mando" src="images\mobile_slajder_NetaGO_2.png " alt="a cute kitten">
+            </picture>
+            <div class="col-md-12 text-center">
+              <button type="button" onclick="window.location.href='tel:660702267';" class="col-6 kupa-3 btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="col-6 kupa-4 btn btn-dark btn-css">Zobacz szczegóły</button>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <button type="button" onclick="window.location.href='#contact';" class="kupa z-2 position-absolute  btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="kupa-2 z-2 position-absolute btn btn-outline-light btn-css">Zobacz
+                szczegóły</button>
+              <source media="(min-width: 992px)" srcset="images\netia_TSCS-296_SkarbNarodow_1920x500.png">
+              <source media="(min-width: 465px)" srcset="images\netia_TSCS-296_SkarbNarodow_767x262.png">
+              <img class="mando" src="images\mobile_slajder_NetaGO_2.png " alt="a cute kitten">
+            </picture>
+            <div class="col-md-12 text-center">
+              <button type="button" onclick="window.location.href='tel:660702267';" class="col-6 kupa-3 btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="col-6 kupa-4 btn btn-dark btn-css">Zobacz szczegóły</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <button type="button" onclick="window.location.href='#features';" class="kupa z-1 position-absolute  btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="kupa-2 z-1 position-absolute btn btn-outline-light btn-css">Zobacz
+                szczegóły</button>
+              <source media="(min-width: 992px)" srcset="images\desktop-slajder-netia-go_poprawione.png">
+              <source media="(min-width: 465px)" srcset="images\mobile_slajder_NetaGO_2.png">
+              <img class="mando" src="images\mobile_slajder_NetaGO_2.png " alt="a cute kitten">
+            </picture>
+            <div class="col-md-12 text-center">
+              <button type="button" onclick="window.location.href='tel:660702267';" class="col-6 kupa-3 btn  btn-primary btn-css">Zamów pakiet</button>
+              <button type="button" onclick="window.location.href='#features';" class="col-6 kupa-4 btn btn-dark btn-css">Zobacz szczegóły</button>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+  <!-- features -->
+
+  <div class="ft-section text-center">
+    <hr>
+    <h2 class="ft-heading">Dostępne pakiety</h2>
+    <hr>
+  </div>
+
+  <section id="features" class="text-center">
+    
+    <br>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <div class="container-fluid row">
+
+      <div class="d-flex flex-column col-lg-4">
+        <div class="card p-2 mb-2" data-aos="fade-right">
+
+          <div class="card-header card-h-1">
+            <h3 class="card-prompt">600 Mb/s</h3>
+            <h3 class="card-prompt">+ TV 99 kanałów</h3>
+          </div class="card-body">
+
+          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="card-footer">
+            <button class="btn-features btn btn-sm btn-success"><i class="fa-regular fa-phone-volume"></i>
+              Zamów</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-flex flex-column col-lg-4">
+        <div class="card p-2 mb-2" data-aos="fade-right">
+
+          <div class="card-header card-h-2">
+            <h3 class="card-prompt"><span><strong>1000</strong></span> Mb/s</h3>
+            <h3 class="card-prompt">+ TV 99 kanałów</strong></h3>
+          </div class="card-body">
+
+          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="card-footer">
+            <button class="btn-features btn btn-sm btn-success"><i class="fa-regular fa-phone-volume"></i>
+              Zamów</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-flex flex-column col-lg-4">
+        <div class="card p-2 mb-2" data-aos="fade-right">
+
+          <div class="card-header card-h-3">
+            <h3 class="card-prompt">600 Mb/s</h3>
+            <h3 class="card-prompt">+ TV <span><strong>189</strong> kanałów</span></h3>
+          </div class="card-body">
+
+          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="card-footer">
+            <button class="btn-features btn btn-sm btn-success"><i class="fa-regular fa-phone-volume"></i>
+              Zamów</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+  </section>
+
+<br><br><br>
+
+  <section id="contact">
+    
+    <div class="container-fluid text-center">
+      <div>
+        <h3>Telefon Kontaktowy</h3>
+        <a href="tel:660702267"><h1><strong>660 702 267</strong></h1></a>
+      </div>
+
+    </div>
+   
+  </section>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#features" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 Netia, Inc</p>
+  </footer>
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+    integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
