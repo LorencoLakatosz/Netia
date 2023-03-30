@@ -183,3 +183,52 @@ hr{
 .card-h-3 {
     background-color: #6E60A9;
 }
+
+.navbar-nav {
+    background-color: black;
+} 
+
+.nav-item {
+text-align: center;}
+
+@media all and (min-width: 992px) {
+    .napis-reklama-1 {
+        color: aliceblue;
+        margin: 5% 0 0 22%;
+        text-shadow: #0C0F1C;
+        text-
+    }
+    
+    .napis-reklama-2 {
+        color: aliceblue;
+        margin: 7% 0 0 26%;
+    }
+
+    .napis-reklama-3 {
+        color: aliceblue;
+        margin: 5% 0 0 26%
+    }
+
+    .napis-reklama-4 {
+        color: aliceblue;
+        margin: 7% 0 0 25.4%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .napis-reklama-1 {
+        display: none;
+    }
+    
+    .napis-reklama-2 {
+        display: none;
+    }
+
+    .napis-reklama-3 {
+        display: none;
+    }
+
+    .napis-reklama-4 {
+       display: none    ;
+    }
+}
