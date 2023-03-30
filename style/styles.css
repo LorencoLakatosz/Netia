@@ -76,64 +76,50 @@ body {
 
 /* TITLE BUTTONS */
 
-@media all and (max-width: 1400px) and (min-width: 992px) {
+@media all and (min-width: 992px) {
     .kupa {
         margin: 10% 0 0 20%;
         width: 20%;
     }
-  }
 
-  
-@media all and (max-width: 992px) and (min-width: 0) {
-    .kupa {
-        margin: 23% 0 0 17%;
-        display: none;
-    }
-  }
-
-  @media all and (max-width: 1400px) and (min-width: 992px) {
     .kupa-2 {
         margin: 15% 0 0 20%;
         width: 20%;
     }
+
+    .kupa-3 {
+        display: none;
+    }
+
+    .kupa-4 {
+        display: none;
+    }
   }
 
   
-@media all and (max-width: 992px) and (min-width: 0) {
+@media all and (max-width: 992px) {
+    .kupa {
+        margin: 23% 0 0 17%;
+        display: none;
+    }
+
     .kupa-2 {
         display: none;
         margin: 23% 0 0 58%;
     }
-  }
-/* <div class="z-1 position-relative container-fluid slider-btn-1 text-center"> */
 
-@media all and (max-width: 1400px) and (min-width: 992px) {
-    .kupa-3 {
-        display: none;
-    }
-  }
-
-@media all and (max-width: 992px) and (min-width: 0) {
     .kupa-3 {
         
         width: 95%;
     }
-  }
 
-  @media all and (max-width: 1400px) and (min-width: 992px) {
-    .kupa-4 {
-        display: none;
-    }
-  }
-
-@media all and (max-width: 992px) and (min-width: 0) {
     .kupa-4 {
         width: 95%;
         
     }
   }
 
-
+ 
   /* FEATURES */
 
   .card-h-1{
