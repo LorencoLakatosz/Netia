@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    background-color: aliceblue;
+    background-color: #EEEEEE;
     
 }
 
@@ -111,10 +111,12 @@ body {
     .kupa-3 {
         
         width: 95%;
+        height: 3rem;
     }
 
     .kupa-4 {
         width: 95%;
+        height: 3rem;
         
     }
   }
@@ -193,11 +195,15 @@ text-align: center;}
     .napis-reklama-3 {
         color: aliceblue;
         margin: 5% 0 0 26%
-    }
+    } 
 
     .napis-reklama-4 {
         color: aliceblue;
         margin: 7% 0 0 25.4%;
+    }
+
+    .deskpot-hide {
+        display: none;
     }
 }
 
@@ -216,6 +222,10 @@ text-align: center;}
 
     .napis-reklama-4 {
        display: none    ;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 }
 
